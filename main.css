@@ -1,0 +1,63 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #8A2BE2; 
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #8A2BE2;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #c1a2de;
+}
+
+.carousel img {
+    max-height: 100vh; /* Define a altura máxima como 70% da altura da viewport */
+    object-fit: cover; /* Garante que a imagem mantenha suas proporções e preencha o espaço */
+}
+
+/* Aplique a fonte Bokor para a classe .section */
+.section-title {
+    font-family: "Pacifico", cursive;
+
+}
+
+#sobre-o-2ne1,
+ #nossos-produtos {
+    background-color: #c9b4dd;
+}
+.text-colored {
+    color: #8A2BE2;
+}
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #8A2BE2; /* Cor de fundo roxa */
+    color: #fff; /* Texto branco */
+}
+
+.nav-produtos .nav-link:hover {
+color: #8A2BE2;
+}
+.social-links li {
+list-style: none;
+display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
